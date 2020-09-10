@@ -24,7 +24,6 @@ public abstract class BaseActivity<VM extends BaseViewModel, D extends ViewDataB
                 this,
                 MvpInstantiationUtils.FIRSTGENERICITY
         );
-        viewModel.setContext(this);
         dataBinding.setVariable(BR.viewModel, viewModel);
     }
 }

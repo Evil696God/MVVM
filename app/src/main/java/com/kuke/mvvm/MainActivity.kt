@@ -11,7 +11,6 @@ import com.kuke.mvvm.databinding.ActivityMainBinding
 class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>() {
 
     fun titleOnClick(view: View) {
-//        viewModel?.loadTitle()
         Log.e("viewModel", "viewModel:" + dataBinding.viewModel)
         viewModel?.loadTitle()
     }

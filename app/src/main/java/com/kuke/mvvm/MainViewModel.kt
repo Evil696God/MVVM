@@ -6,7 +6,7 @@ import androidx.databinding.ObservableField
 import com.kuke.mvvm.base.viewModel.BaseViewModel
 import com.kuke.mvvm.databinding.ActivityMainBinding
 
-class MainViewModel : BaseViewModel<MainModel, MainActivity>() {
+class MainViewModel : BaseViewModel<MainModel>() {
     var title = ObservableField<String>()
 
     fun loadTitle() {
